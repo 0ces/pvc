@@ -30,6 +30,7 @@ $(document).ready(() => {
         d_omegasVal = parseFloat(d_omegas.val())/100;
         d_viguetasVal = parseFloat(d_viguetas.val())/100;
         d_puntillasVal = parseFloat(d_puntillas.val())/100;
+        calcular();
     }
 
     // calcular();

@@ -13,7 +13,7 @@ $(document).ready(() => {
     let a_laminaVal = parseFloat(a_lamina.val())/100;
     let l_estructuraVal = parseFloat(l_estructura.val());
     let d_omegasVal = parseFloat(d_omegas.val())/100;
-    let d_viguetasVal = parseFloat(d_viguetas.val())/100;
+    let d_viguetasVal = parseFloat(d_viguetas.val());
     let d_puntillasVal = parseFloat(d_puntillas.val())/100;
 
     l_lamina.on('input', () => updateConfig());
@@ -28,7 +28,7 @@ $(document).ready(() => {
         a_laminaVal = parseFloat(a_lamina.val())/100;
         l_estructuraVal = parseFloat(l_estructura.val());
         d_omegasVal = parseFloat(d_omegas.val())/100;
-        d_viguetasVal = parseFloat(d_viguetas.val())/100;
+        d_viguetasVal = parseFloat(d_viguetas.val());
         d_puntillasVal = parseFloat(d_puntillas.val())/100;
         calcular();
     }

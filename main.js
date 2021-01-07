@@ -28,7 +28,6 @@ $(document).ready(() => {
         a_laminaVal = parseFloat(a_lamina.val())/100;
         l_estructuraVal = parseFloat(l_estructura.val());
         d_omegasVal = parseFloat(d_omegas.val())/100;
-        console.log(d_omegas.val(), d_omegasVal)
         d_viguetasVal = parseFloat(d_viguetas.val());
         d_puntillasVal = parseFloat(d_puntillas.val())/100;
         calcular();
@@ -60,7 +59,6 @@ $(document).ready(() => {
         let perimetro = Math.ceil(2*(anchoVal+largoVal));
         let area = anchoVal*largoVal;
         let angulos = Math.ceil(perimetro / l_estructuraVal);
-        console.log(d_omegasVal, anchoVal, largoVal, l_estructuraVal);
         let omegas = Math.ceil((anchoVal/d_omegasVal)*(largoVal/l_estructuraVal));
         let viguetas = Math.ceil((largoVal/d_viguetasVal)*(anchoVal/l_estructuraVal));
         let cornizas = Math.ceil(perimetro/l_laminaVal);

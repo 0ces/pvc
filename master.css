@@ -53,3 +53,40 @@ td, th {
     min-width: 80px;
     text-align: right;
 }
+
+.config-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.config {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    width: 80vw;
+    height: 80vh;
+    background: #fff;
+    box-shadow:  5px  0px 5px rgba(0,0,0,0.2),
+                -5px  0px 5px rgba(0,0,0,0.2),
+                 0px  5px 5px rgba(0,0,0,0.2),
+                 0px -5px 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.config * {
+    margin: 10px;
+}
+
+.config td,input {
+    font-size: 1rem;
+}

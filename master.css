@@ -69,10 +69,9 @@ td, th {
 
 .config {
     position: absolute;
-    top: 10vh;
+    top: calc(50vh - 269px);
     left: 10vw;
     width: 80vw;
-    height: 80vh;
     background: #fff;
     box-shadow:  5px  0px 5px rgba(0,0,0,0.2),
                 -5px  0px 5px rgba(0,0,0,0.2),

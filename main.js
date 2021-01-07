@@ -82,7 +82,11 @@ $(document).ready(() => {
 
     $('.config-icon').click(() => {
         $('.config').toggleClass('hidden');
-    })
+    });
+
+    $('#cerrar-config').click(() => {
+        $('.config').toggleClass('hidden');
+    });
 
     $('.rotate-icon').click(() => {
         let temp = ancho.val();

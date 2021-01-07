@@ -70,8 +70,8 @@ td, th {
 .config {
     position: absolute;
     top: calc(50vh - 269px);
-    left: 10vw;
-    width: 80vw;
+    left: calc(50vw - 172.5px);
+    max-width: 345;
     background: #fff;
     box-shadow:  5px  0px 5px rgba(0,0,0,0.2),
                 -5px  0px 5px rgba(0,0,0,0.2),

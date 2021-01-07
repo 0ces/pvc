@@ -83,4 +83,11 @@ $(document).ready(() => {
     $('.config-icon').click(() => {
         $('.config').toggleClass('hidden');
     })
+
+    $('.rotate-icon').click(() => {
+        let temp = ancho.val();
+        ancho.val(largo.val());
+        largo.val(temp);
+        calcular();
+    });
 });
